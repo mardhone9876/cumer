@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto css</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+header{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px;
+}
+#titulo_e_subtitulo {
+    margin:80px auto 0 auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+    
+}
+#titulo_e_subtitulo h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px #151515;
+}
+#titulo_e_subtitulo p {
+    font-size: 18px;
+    background-color: rgba(0,0,0, 0.7);
+    border-bottom: #ccc solid 2px;
+    padding: 16px;
+    display: inline-block;
+}
+nav ul{
+    text-align: right;
+    margin: 20px 55px 0 0 ;
+}
+nav li{
+    display: inline-block;
+    text-align: right;
+    list-style-type: none;
+    margin-left:16x ;
+}
+nav li a {
+    display: block;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #ccc;
+    background-color: rgba(0,0,0, 0.3);
+    border: #ccc solid 1px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+}
+nav li a:hover{
+    background-color: rgba(0,0,0, 0.5);
+}
+#html,#css,#JavaScript{
+    background-color: white;
+    margin-top: 20px;
+}
+main{
+    width: 80%;
+    margin:auto;
+    
+}
+h3{
+    border-bottom: solid #eee 2px;
+    padding: 10px;
+    background-color: #ddd;
+    
+}
+main a {
+    display: inline-block;
+    height: 20px;
+    width: 9%;
+    background-color: rgba(0,0,0, 0.1);
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: rgb(56, 56, 56);
+    color: #ccc;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 1px 1px 2px black;
+    margin-top: 20px;
+}
+main p {
+    margin-left: 5px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">inicio</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">cursos</a></li>
+            </ul>
+        </nav>
+        <div id="titulo_e_subtitulo">
+            <h1>CURSOS SER FRONTEND</h1>
+            <p>Tudo o que precisa saber para iniciar na carreira</p>
+        </div>
+    </header>
+    <main>
+        <div id="html">
+            <h3>O HTML</h3>
+            <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div id="css">
+            <h3>O CSS</h3>
+            <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+        <div id="JavaScript">
+            <h3>O Javascript</h3>
+            <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.</p>
+            <a href="#">Saiba mais</a>
+        </div>
+    </main>
+    <footer>
+        Copyright © 2016
+    </footer>
+</body>
+</html>
